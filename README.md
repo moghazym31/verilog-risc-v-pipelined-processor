@@ -36,20 +36,25 @@ The full data path schematic can be seen below:
 
 ## Results
 
-Batch 1 tests following instructions in one program:
+### **Batch 1** tests following instructions in one go:
 `ADD`, `LW`, `ADD`, `SUB`, `ADDI`, `AND`, `ANDI`, `OR`, `XOR`, `XORI`, `ORI`, `SLLI`, `SLL`, `SRLI`, `SRL`, `SLT`, `SLT`, `SLTU`, `SLTI`, and `SLTIU`.
 
 Batch 1 Test Cases Final Register File:
 ![Full Data Path](https://s11.gifyu.com/images/SQtKz.png)
 
-Batch 2 tests following instructions in one program:
+<br>
+
+### **Batch 2** tests following instructions in one go:
 `LB` , `SRA`, `SRAI`, `LBU`, `LHU`, `LH`, `SB`, `LBU`, `SH`, `SW`, `LUI`, and `AUIPC`.
 
 Batch 2 Test Cases Final Register File:
 ![Full Data Path](https://s12.gifyu.com/images/SQtKb.png)
 
-Batch 3 tests following instructions in one program:
+<br>
+
+### **Batch 3** tests following instructions in one go:
 `BLTU`, `BNE`, `BEQ`, `BLT`, `BGE`, `BGEU`, `JAL`, and `JALR`.
+
 
 Batch 3 (BEQ branch taken) Test Cases Final Register File:
 ![Full Data Path](https://s11.gifyu.com/images/SQtKL.png)
@@ -75,7 +80,9 @@ Batch 3 (JAL) Test Cases Final Register File:
 Batch 3 (JALR) Test Cases Final Register File:
 ![Full Data Path](https://s12.gifyu.com/images/SQtNK.png)
 
-Batch 4 tests following instructions in one program:
+<br>
+
+### **Batch 4** tests following instructions in one go:
 `MUL`, `MULH`, `MULHSU`, `MULHU`, `DIV`, `DIVU`, `REM`, and `REMU`.
 
 Batch 4 (BLTU branch taken) Test Cases Final Register File:
